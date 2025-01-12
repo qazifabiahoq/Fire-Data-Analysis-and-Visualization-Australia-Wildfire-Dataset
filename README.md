@@ -79,7 +79,12 @@ The analysis also highlights the most intense fire periods between 2010 and 2012
 This interactive tool also opens avenues for further research and action in wildfire management, prediction, and prevention, laying the groundwork for more targeted efforts in the future.
 
 
+## Authors
+Dr. Pooja
 
+Copyright © 2023 IBM Corporation. All rights reserved.
+## Completed by
+Qazi Fabia Hoq (as part of the Data Science Professional Certification by IBM)
 
 
 
