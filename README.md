@@ -86,5 +86,12 @@ Copyright © 2023 IBM Corporation. All rights reserved.
 ## Completed by
 Qazi Fabia Hoq (as part of the Data Science Professional Certification by IBM)
 
+## Acknowledgement
+This analysis is part of the IBM Data Science Professional Certification course on Coursera. The dataset used in this project was provided as part of the course, and the tasks were designed to help me apply data science techniques on real-world data. The guidance for this project was authored by Dr. Pooja, and I am grateful for the opportunity to enhance my skills through this comprehensive learning experience.
+
+
+
+
+
 
 
