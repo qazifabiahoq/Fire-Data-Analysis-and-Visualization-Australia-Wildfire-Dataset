@@ -54,30 +54,29 @@ Key Findings: There was no significant linear correlation between radiative powe
 Objective: To mark the seven regions on a map of Australia for geographical context.
 Method: Folium was used to create an interactive map marking the regions with red circle markers.
 Key Findings: This map visually presents the spatial distribution of wildfires across Australia, providing a geographic understanding of where the fire data is sourced from.
-## Part 2: Developing the Dashboard for Wildfire Data Visualization
-### Dashboard Layout and User Interface:
-Main Title: The dashboard is titled "Australia Wildfire Dashboard", setting the tone for the wildfire data analysis.
-Region Selection: A RadioItems component allows users to select from seven regions in Australia to analyze the data for specific areas.
-Year Selection: A Dropdown component is provided for users to select the year they wish to explore, ensuring they can focus on the desired time period.
-Output Divisions: Two empty divisions (html.Div tags) are created to dynamically update with the visualizations as users make their selections.
-### Callback Setup and Data Interaction:
-Callback Functionality: The application’s callback function listens for changes in the selected region and year. It dynamically updates the visualizations (graphs) based on the user's input.
-Visualization 1: A pie chart is created to visualize the monthly average of the estimated fire area.
-Visualization 2: A bar chart is used to show the monthly average of presumed vegetation fires, represented by the pixel count.
-Implementation: The reg_year_display function filters the data based on the selected region and year, and the graphs update accordingly.
-### Running the Application:
-The application is hosted locally, allowing users to interactively explore the data by selecting different regions and years, with dynamic updates to the visualizations based on these selections.
+
+
+
 ## Conclusion:
-This analysis and dashboard provide a comprehensive and dynamic view of wildfire activities across Australia. By integrating detailed historical data with an interactive visualization platform, it becomes easier to explore and analyze wildfire data, helping decision-makers and researchers gain better insights into trends, hotspots, and patterns over time. This is beneficial for:
 
-Government agencies in disaster response and policy-making.
-Environmental organizations aiming to understand fire patterns and improve prevention strategies.
-Researchers studying the ecological and social impacts of wildfires.
-The general public, who can explore fire data trends in an accessible manner.
-The analysis also highlights the most intense fire periods between 2010 and 2012, with particular attention to the regions of New South Wales and Northern Territory. The dashboard provides a user-friendly interface for engaging with the data, while the detailed analysis of fire brightness, radiative power, and vegetation fire distribution across regions adds depth to our understanding of Australia’s wildfire patterns.
+This analysis of wildfire data across Australia’s seven regions offers critical insights into wildfire dynamics, highlighting trends and regional disparities from 2005 onward.
 
-This interactive tool also opens avenues for further research and action in wildfire management, prediction, and prevention, laying the groundwork for more targeted efforts in the future.
+Key temporal patterns were evident, with the average estimated fire area peaking at 265 km² in 2012, a stark increase compared to prior years. Significant fire activity was observed in April 2011 and April 2012, corresponding to Australia’s well-documented wildfire seasons. These periods underscore the need for focused mitigation strategies during peak fire months.
 
+Regional analysis revealed that Northern Territory (NT) accounted for 34.13% of all presumed vegetation fire pixels, followed closely by Western Australia (WA) with 32.37%. In contrast, Tasmania (TA) and South Australia (SA) contributed only 0.6% and 1.85%, respectively, reflecting considerable variation in wildfire distribution. NSW (New South Wales) and NT exhibited the highest average fire brightness, with NSW consistently recording extreme values in the histogram analysis. This points to heightened fire intensity in these regions compared to others.
+
+The distribution of fire brightness showed that most values clustered around 5000 Kelvin, with 320 occurrences in this range, suggesting a level of consistency in fire intensity across regions. However, extreme brightness values observed in NSW and NT highlight specific incidents of intense wildfires.
+
+Interestingly, the scatter plot analysis revealed no significant linear correlation between radiative power (indicating fire intensity) and confidence levels. This indicates that confidence levels do not reliably predict the radiative power of fires, emphasizing the complexity of factors influencing wildfire characteristics.
+
+The geographical visualization using Folium provided a spatial understanding of fire activity, marking all seven regions and their contributions. The regions with the highest fire activity—NT and WA—stand out geographically, aligning with their high pixel counts and brightness levels.
+
+Overall, this analysis highlights the disproportionate impact of wildfires in specific regions, emphasizing the need for targeted strategies in Northern Territory and Western Australia. It also underscores the importance of temporal patterns, such as peak months and years, to anticipate and mitigate fire risks effectively. By understanding these dynamics, policymakers and environmental managers can allocate resources more efficiently and develop region-specific wildfire management plans. By integrating detailed historical data with and vizualizations, it becomes easier to explore and analyze wildfire data, helping decision-makers and researchers gain better insights into trends, hotspots, and patterns over time. This is beneficial for:
+
+-Government agencies in disaster response and policy-making.
+-Environmental organizations aiming to understand fire patterns and improve prevention strategies.
+-Researchers studying the ecological and social impacts of wildfires.
+-The general public, who can explore fire data trends in an accessible manner.
 
 ## Authors
 Dr. Pooja
